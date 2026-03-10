@@ -14,3 +14,5 @@ $ python3 extract_text.py
 ```
 
 O arquivo de saída será um txt `book.txt` na pasta ./data/
+
+## Script 2 -
