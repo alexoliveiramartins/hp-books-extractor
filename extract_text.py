@@ -1,4 +1,4 @@
-# Not used
+# Not used anymore
 
 from pypdf import PdfReader
 
