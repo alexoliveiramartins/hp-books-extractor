@@ -6,8 +6,8 @@ client = chromadb.PersistentClient(path="./output/vector_db")
 collection = client.get_collection("hp_books")
 
 results = collection.query(
-    query_embeddings=[make_embedding("query: Description of Xenophilus Lovegood")],
-    n_results=10
+    query_embeddings=[make_embedding("query: Description of uncle Vernon")],
+    n_results=5
 )
 
 for doc, meta in zip(results["documents"][0], results["metadatas"][0]):

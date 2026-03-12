@@ -3,6 +3,6 @@
 import pymupdf4llm
 import pathlib
 
-md_text = pymupdf4llm.to_markdown("./data/harrypotter_complete_edition.pdf")
+md_text = pymupdf4llm.to_markdown("./data/hp-epub.epub")
 
-pathlib.Path("./output/output.md").write_bytes(md_text.encode())
+pathlib.Path("./output/output_epub.md").write_bytes(md_text.encode())

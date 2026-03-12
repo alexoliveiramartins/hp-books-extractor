@@ -26,6 +26,7 @@ $ python3 parse_markdown.py
 ## Script 3 - chunker.py
 
 - Cria jsons de chunks feitas a partir do arquivo .md
+- O chunk aqui é feito por paragrafos dos livros
 
 ```bash
 $ python3 chunker.py
@@ -39,7 +40,7 @@ $ python3 chunker.py
 $ python3 save_to_vector_db.py
 ```
 
-## Script 5 - test_vectord_db.py
+## Script 4.5 - test_vectord_db.py
 
 - Testa o BD vetorial com queries (embbeded)
 
